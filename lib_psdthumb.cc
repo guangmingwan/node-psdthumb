@@ -48,8 +48,8 @@ int psd2thumb(const char* in_filename,const char* out_filename) {
 	// in_filename = argv[1];
 	// out_filename = argv[2];
 
-	in = fopen(in_filename, "r");
-	out = fopen(out_filename, "w+");
+	in = fopen(in_filename, "rb");
+	out = fopen(out_filename, "wb+");
 
 	if (!in) {
 		printf("Could not open %s\n", in_filename);
