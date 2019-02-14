@@ -6,7 +6,7 @@
   "homepage": "https://github.com/guangmingwan/node-psdthumb",
   "keywords": [
     "psd",
-    "thumbnail",
+    "thumbnail"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
