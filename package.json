@@ -1,8 +1,13 @@
 {
   "name": "psdthumb",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Use native code to extract embedded JPEG format thumbnails directly from PSD files, and do not depend on any modules except NAN",
   "main": "index.js",
+  "homepage": "https://github.com/guangmingwan/node-psdthumb",
+  "keywords": [
+    "psd",
+    "thumbnail",
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
